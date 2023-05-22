@@ -1,0 +1,11 @@
+{
+  "language": {
+    "lang": "rust"
+  },
+  "compile:options": {
+    "input": "/",
+    "output": "./.w3bstream",
+    "watchDir": ".w3bstream/wasm32-wasi/release/**.wasm",
+    "extraCompileOptions": "--release"
+  }
+}
